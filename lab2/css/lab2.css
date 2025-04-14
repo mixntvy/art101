@@ -1,0 +1,31 @@
+
+h1 {
+  color:aquamarine;
+  font-size: 75px;
+  margin-left: 160px;
+  margin-right: 150px;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-indent: 25px;
+  margin-left: 93.75px;
+  margin-right: 93.75px;
+}
+
+#content {
+  background-color: rgb(75, 75, 206);
+  width: 750px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 10px rgba(204, 73, 40, 0.725);
+  font-size: 24px;
+}
+
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
