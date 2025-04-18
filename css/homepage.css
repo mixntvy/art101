@@ -1,6 +1,74 @@
 /* this css file will only style the homepage of our site */
 
-.cat-photo {
-  margin: 10px;
-  max-width: 500px;
+.me-photo {
+  margin: -200px;
+  max-width: 400px;
+  margin-left: 550px;
 }
+
+body {
+  background-image: url(../img/dsbackgroundtop.PNG);
+  background-position: top, bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#content {
+  width: 1095px;
+  height: 500px;
+  position: absolute;
+  left: 202px;
+}
+
+h1{
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 200px;
+  margin: 2px;
+  text-align: center;
+  color: rgb(20, 31, 31);
+  font-size: 50px;
+}
+
+.bio-section {
+  position: relative;
+  left: 300px;
+}
+
+h2 {
+  margin-top: -75px;
+  margin-left: 175px;
+  color: rgb(20, 31, 31);
+  font-size: 30px;
+} 
+
+h3 {
+  font-size: 20px;
+}
+
+.lab-heading {
+  text-align: left;
+  margin-left: 264px;
+  margin-top: -20px;
+} 
+
+h1,h2,h3 {
+  font-family:Georgia, 'Times New Roman', Times, serif
+  
+}
+
+p, ul {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 17px;
+  
+}
+
+h3, ul {
+  text-align: center;
+  margin-right: 450px;
+  margin-top: 2px;
+  list-style-position: inside;
+} 
+
+
+
