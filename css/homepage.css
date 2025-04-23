@@ -1,23 +1,55 @@
 /* this css file will only style the homepage of our site */
 
-.me-photo {
-  margin: -200px;
-  max-width: 400px;
-  margin-left: 550px;
+
+body {
+  display: flex;
+  justify-content: center; /* Center horizontally */
 }
+
+.container {
+  /*width:1125px;
+  height:780px;*/
+  width: 800px;
+  height: 780px;
+  float: left;
+}
+
+h1,h2,h3 {
+   margin-left:auto; /* Center horizontally */
+   margin-right:auto; /* Center horizontally */
+}
+
+.me-photo {
+  position: relative;
+  /*float: right;*/
+  margin-left: 500px;
+  max-width: 385px;
+  margin-top: -460px;
+
+  /*margin: -200px;
+  margin-left: 550px;*/
+} 
 
 body {
   background-image: url(../img/dsbackgroundtop.PNG);
   background-position: top, bottom;
   background-repeat: no-repeat;
   background-size: 100%;
+  max-width: 100%;
 }
 
-#content {
+ /*#content {
   width: 1095px;
   height: 500px;
   position: absolute;
   left: 202px;
+} */
+
+
+#content {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 h1{
@@ -30,14 +62,58 @@ h1{
   font-size: 50px;
 }
 
-.bio-section {
-  position: relative;
-  left: 300px;
+
+
+.flex-container {
+  display: flex;
+  align-items: left; /* Align vertically */
+  margin-top: -80px;
+  margin-left: -113px;
+  text-align: center;
+  flex-direction: column;
+  float: left;
 }
 
+.flex-container > div {
+  margin-right:70px;
+}
+
+
+
+.flex-container > nav {
+  order: 1; /* Ensures nav comes after text */
+}
+
+
+
+.flex-container > div {
+  order: 0; /* Default order */
+}
+
+
+
+h2, ul {
+  margin-left:0px;
+}
+
+
+
+
+
+
+/*h2 {
+  text-align: center;
+}
+
+.bio-section {
+  position: relative;
+  float: left;
+  left: 300px;
+}*/
+
 h2 {
-  margin-top: -75px;
-  margin-left: 175px;
+  /*margin-top: -75px;
+  margin-left: 175px;*/
   color: rgb(20, 31, 31);
   font-size: 30px;
 } 
@@ -46,11 +122,12 @@ h3 {
   font-size: 20px;
 }
 
-.lab-heading {
+/*.lab-heading {
   text-align: left;
   margin-left: 264px;
   margin-top: -20px;
-} 
+  }*/
+
 
 h1,h2,h3 {
   font-family:Georgia, 'Times New Roman', Times, serif
@@ -63,12 +140,10 @@ p, ul {
   
 }
 
-h3, ul {
-  text-align: center;
+ h3, ul {
+  /*text-align: center;
   margin-right: 450px;
-  margin-top: 2px;
+  margin-top: 2px;*/
   list-style-position: inside;
 } 
-
-
 
