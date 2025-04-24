@@ -1,9 +1,77 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+
+body{
+  background-color: #523a61;
+}
+
+.question {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #aa80c3;
+}
+
+h1 {
+  font-size: 35px;
+  background-color: #7b5c8e;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.images {
+ display: block;
+margin: auto;
+width: 60%;
+}
+
+h1,h2,h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 70px;
+}
+
+h1,h2,h3,p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.carpic {
+  max-width: 24%;
+  margin-left: 65%;
+  position: absolute;
+  z-index: 10;
+  margin-top: 43px;
+}
+
+.images {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #aa80c3;
+  background-color: #aa80c3;
+}
+
+.output {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.pseudocode {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #cfaee3;
+  background-color: #cfaee3;
+}
+
