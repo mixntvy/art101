@@ -1,0 +1,199 @@
+.special {
+    background-color: #aa80c3;
+    border: groove 30px rgb(198, 169, 249);
+    color: rgb(90, 27, 82);
+    font-weight: bold;
+}
+
+.text p {
+    display: inline-block;
+    max-width: 60.4%;
+    margin: 8.4px;
+    padding: 5px 10px;
+    border-radius: 11px;
+    background-color: #9d7da4;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: -4.4em;
+    text-align: left;
+}
+
+.text:nth-child(2n+1) {
+  text-align: left;
+}
+
+.text.text:nth-child(2n+1) p {
+    background-color: #c871ba;
+  color: #464646;
+}
+
+.text:nth-child(2n) {
+  text-align: right;
+}
+
+.text:nth-child(2n) p {
+    background-color: #c65077;
+  color: #dfdfdf;
+}
+
+
+.results-code {
+  display: inline-block;
+  max-width: 40%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #7e62a2;
+  color: rgb(238, 236, 236);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    font-size: 25px;
+    color:#2d0b42
+}
+
+
+body{
+    background-color: #523a61;
+  }
+  
+/*this is the css for the questions*/
+
+        #results {
+            background-color: #aa80c3;
+            border: groove 25px rgb(198, 169, 249);
+            color: rgb(90, 27, 82);
+            font-weight: bold;
+        }
+
+        #subject {
+            background-color: #aa80c3;
+            border: groove 25px rgb(198, 169, 249);
+            color: rgb(90, 27, 82);
+            font-weight: bold;
+        }
+
+        #challenges {
+            background-color: #aa80c3;
+            border: groove 25px rgb(198, 169, 249);
+            color: rgb(90, 27, 82);
+            font-weight: bold;
+        }
+  
+
+
+/*make the buttons have a click effect and changes the css of the button*/
+
+        #button-subject {
+        background-color: #c073b7;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+        }
+
+        #button-challenges {
+        background-color: #c073b7;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+        }
+
+        #button-results {
+        background-color: #c073b7;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+        }
+
+
+/* aligns everything in these sections to the center (using it to center the buttons mostly)*/
+
+        #subject {
+            text-align: center;
+        }
+
+        #challenges {
+            text-align: center;
+        }
+
+        #results {
+            text-align: center;
+        }
+
+
+/*css for the images in the html*/
+
+        .image {
+        display: block;
+        margin: auto;
+        width: 60%;
+        }
+
+        .images-group {
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #aa80c3;
+            border: groove 25px rgb(198, 169, 249);
+        }
+
+
+
+
+/*css  for the text elements of the page*/
+        h1 {
+            font-size: 35px;
+            background-color: #aa80c3;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: groove 15px rgb(198, 169, 249);
+            /*color: #000000;*/
+        }
+        
+        h2 {
+            font-size: 25px;
+        }
+        
+        
+        
+        h1,h2,h3 {
+            text-align: center;
+        }
+        
+        p {
+            text-align: center;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        h3 {
+            margin-top: 70px;
+        }
+        
+        h2,h3 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+        }
+  
+
+/*not using rn*/
+
+    /*.carpic {
+        max-width: 20%;
+        margin-left: 72%;
+        position: absolute;
+        z-index: 10;
+        margin-top: 137px;
+    }*/
+    
+    
+    
+    /*.output {
+        font-size: 29px;
+        color: #382742;
+        text-align: center;
+        margin-bottom: 24px;
+        position: absolute;
+        z-index: 10;
+        margin-top: -358px;
+        margin-left: 611px;
+    }*/
+
+  
