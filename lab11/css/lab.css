@@ -5,37 +5,6 @@
     font-weight: bold;
 }
 
-.text p {
-    display: inline-block;
-    max-width: 60.4%;
-    margin: 8.4px;
-    padding: 5px 10px;
-    border-radius: 11px;
-    background-color: #9d7da4;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: -4.4em;
-    text-align: left;
-}
-
-.text:nth-child(2n+1) {
-  text-align: left;
-}
-
-.text:nth-child(2n+1) p {
-    background-color: #c871ba;
-  color: #464646;
-}
-
-.text:nth-child(2n) {
-  text-align: right;
-}
-
-.text:nth-child(2n) p {
-    background-color: #c65077;
-  color: #dfdfdf;
-}
-
 
 .results-code {
   display: inline-block;
@@ -49,7 +18,7 @@
 }
 
 #header {
-    font-size: 25px;
+    font-size: 18px;
     color:#2d0b42
 }
 
@@ -79,28 +48,6 @@ body{
             border: groove 25px rgb(198, 169, 249);
             color: rgb(90, 27, 82);
             font-weight: bold;
-        }
-  
-
-
-/*make the buttons have a click effect and changes the css of the button*/
-
-        #button-subject {
-        background-color: #c073b7;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
-        }
-
-        #button-challenges {
-        background-color: #c073b7;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
-        }
-
-        #button-results {
-        background-color: #c073b7;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
         }
 
 
