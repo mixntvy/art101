@@ -1,0 +1,88 @@
+/* this is making the background of the page a ds using an image*/
+
+body {
+  background-image: url(../img/dsbackgroundtop.PNG);
+  background-position: top, bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 100%;
+}
+
+/* this is keeping all the content on the page inside the ds screen */
+#ds-screen {
+    margin-top: 3.7%;
+    margin-left: 13.4%;
+    width: 73.5%;
+}
+
+body {
+    margin-bottom: 0px;
+}
+
+.me-photo {
+  max-width: 25.0%;
+  margin-left: 44.2%;
+  position: absolute;
+  z-index: 10;
+  margin-top: -536.2px;
+} 
+
+
+/* All stuff inside ds screen */
+
+    /* puts the introduction inside its own box within the ds screen*/ 
+    #introduction {
+        text-align: center;
+        width: 50%;
+        margin-top: 8.2%;
+        margin-left: 7.4%;
+    }
+
+    /* puts the link titles inside its own box within the ds screen*/
+    .link-titles {
+        text-align: center;
+        width: 50%;
+        margin-top: 4%;
+        margin-left: 7.4%;
+    }
+
+    /* puts the list inside its own box within the ds screen*/
+    .list {
+        text-align: center;
+        width: 50%;
+        margin-left: 5.6%;
+    }
+
+
+/* Text Css */ 
+
+    /*making the font for all of these elements the same*/
+    p,h2,h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /*making all p elements the same font size*/
+    p {
+        font-size: 16.5px;
+    }
+
+    /*making less space between the h3 and h2 elements*/
+    h3{
+        margin-top: -3.6%;
+        margin-bottom: 0%;
+    }
+
+    /* makes bullet points on list stick with the ul */
+    ul {
+        list-style-position: inside;
+    }
+
+    h1 {
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 50px;
+        margin-top: -0.5%;
+    }
+
+
+

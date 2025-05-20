@@ -17,14 +17,26 @@ body {
 h1,h2,h3 {
    margin-left:auto; /* Center horizontally */
    margin-right:auto; /* Center horizontally */
+   margin-top: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  margin-left: 8.8%;
+  position: absolute;
+  z-index: 10;
+  margin-top: -17.6px;
 }
 
 .me-photo {
-  position: relative;
-  /*float: right;*/
-  margin-left: 500px;
-  max-width: 385px;
-  margin-top: -460px;
+  max-width: 51.4%;
+  margin-left: -2.4%;
+  position: absolute;
+  z-index: 10;
+  margin-top: -45.0px;
 
   /*margin: -200px;
   margin-left: 550px;*/
@@ -46,7 +58,7 @@ body {
 } */
 
 
-#content {
+#contents {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
